@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="25dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_dp_round"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:text="Hello there!!! I am Sai Sathvik.S"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Work Experience"
+            android:textColor="@color/black"
+            android:fontFamily="serif-monospace"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:layout_marginTop="10dp"
+            android:text="I am currently doing my Masters in Computer Science at Northwestern University.Prior to this I had done my Bachelor's in Computer Sciencce from top school in India."
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:fontFamily="serif-monospace"
+            android:text="Education"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="serif-monospace"
+            android:text="I am currently doing my Masters in Computer Science at Northwestern University.Prior to this I had done my Bachelor's in Computer Sciencce from top school in India. I had become well versed in various fundamentals of Computer Science like Data Structures and Algorithms, Databases, Operating Systems and Networks."
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:fontFamily="serif-monospace"
+            android:text="About Me"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="serif-monospace"
+            android:text="Given my Bachelor's degree in Computer Science and working as a Software Engineer at a leading firm like Samsung Research, I believe I have a strong affinity towards solving complex problems. I have gathered relevant experience in Software development processes, superior technical skills, high competency in programming languages like C++, Java, and Python. I am well-versed in designing and developing modular, maintainable code adhering to best object-oriented practices and Design patterns. As my motto goes: Learning never stops in software engineering. Over the years, I have learned that this is a field evolving each day and you must be eager to learn and brave enough to unlearn to stay at top of the game. I thrive in environments where I am provided with the opportunity to continuously grow and evolve.  Finally, I am exceptional at being accurate and attentive to detail, reporting, and record-keeping, creating plans to accomplish work. I have immense experience working in diverse environments and being a team player. I am that starry-eyed kid waiting for my next opportunity to excel in all fields, I ever wanted to."
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:fontFamily="serif-monospace"
+            android:text="Projects"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="serif-monospace"
+            android:text="Covid Vaccine Checker using AWS.\nChoreWheel web application using React and Firebase.\nReal-time Bus tracking Android app using Google Maps API\n"
+            />
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

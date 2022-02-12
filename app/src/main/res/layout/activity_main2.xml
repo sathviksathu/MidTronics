@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Main2Activity"
+    android:padding="25dp"
+    android:layout_gravity="center">
+
+    <Button
+        android:id="@+id/show_profile_button"
+        android:padding="5dp"
+        android:text="Show My Profile"
+        android:backgroundTint="@color/gray"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/show_country_button"
+        android:padding="5dp"
+        android:text="SHOW COUNTRIES"
+        android:backgroundTint="@color/gray"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/show_profile_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
